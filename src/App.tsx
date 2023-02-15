@@ -1,10 +1,9 @@
 import "./App.css";
-import "bootstrap/dist/js/bootstrap.min.js";
-import "bootstrap/dist/css/bootstrap.min.css";
 import React from "react";
+import { ChakraProvider } from "@chakra-ui/react";
 
 const App = () => {
-  return <div>testing </div>;
+  return <ChakraProvider></ChakraProvider>;
 };
 
 export default App;
